@@ -13,6 +13,8 @@ SPIDER_MODULES = ["web_spider.spiders"]
 NEWSPIDER_MODULE = "web_spider.spiders"
 
 
+DOWNLOAD_TIMEOUT=10
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "web_spider (+http://www.yourdomain.com)"
 
